@@ -1,3 +1,5 @@
+![Logo](Images/Icon-AppStore.jpg)
+
 # Introduction
 
 I wrote Datac as an aid for a colleague of mine, Radek Domín of [RallyAnalytics](http://rallyanalytics.com), who was
@@ -10,8 +12,19 @@ also takes samples of the data and performs some filtering and detection algorit
 current RPM. The data capture component was heavily influenced by Apple sample code that worked with CoreAudio, in
 particular custom render procedures for AudioUnit nodes.
 
+Here is a screen capture of the input view. Note that this view is rendered using OpenGL.
+
+![Input](Images/iTunes%20Connect/2%20iPhone%20-%20Input%20Landscape.png)
+
+Here is a screen capture of the detections view. The plotting here is done via the
+[CorePlot](http://code.google.com/p/core-plot/) framework.
+
+![Detections](Images/iTunes%20Connect/4%20iPhone%20-%20Detections%20Landscape.png)
+
 You can make a recording of the signal input as an audio file (WAV or CoreAudio format) and these files can then be
 transfered to a Mac via iTunes or to a Dropbox folder.
+
+![Recordings](Images/iTunes%20Connect/5%20iPhone%20-%20Recordings%20Portrait.png)
 
 # Dependencies
 
