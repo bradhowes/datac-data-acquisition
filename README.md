@@ -2,10 +2,10 @@
 
 # Introduction
 
-I wrote Datac as an aid for a colleague of mine, Radek Domín of [RallyAnalytics](http://rallyanalytics.com), who was
-looking to capture automotive performance data using an Apple iOS device such as an iPhone or iPad (or a suitable
-Android device). As I had some experience with iPhone development, I volunteered to help with signal acquisition on the
-iOS devices. All of the code for the application was written by me, except where noted below.
+I wrote Datac in 2011 as an aid for a colleague of mine, Radek Domín who was looking to capture automotive performance
+data using an Apple iOS device such as an iPhone or iPad (or a suitable Android device). As I had some experience with
+iPhone development on my iPhone 3GS, I volunteered to help with signal acquisition on the iOS devices. All of the code
+for the application was written by me, except where noted below.
 
 The app takes in a signal from the device's mic (internal or headphone jack) and displays it in the main display. It
 also takes samples of the data and performs some filtering and detection algorithms in order to determine the vehicle's
